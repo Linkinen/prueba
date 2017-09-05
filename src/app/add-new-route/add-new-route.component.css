@@ -1,0 +1,177 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+div#showRoutineOutside{
+  margin: auto;
+  margin-top: -850px;
+  margin-left: 250px;
+  height: 850px;
+  width: 1650px;
+  background: white;
+}
+
+.workoutRoutines{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+div#showRoutineInside{
+  margin: auto;
+  margin-left: 15px;
+  height: 807px;
+  width: 1645px;
+  background: white;
+  border: 1px solid red;
+}
+
+h1{
+  font-family: Arial,sans-serif;
+  font-weight:400;
+  height: 60px;
+  width: 100%;
+  background: #1166AA;
+  line-height: 60px;
+  color: white;
+
+}
+div{
+  width: 250px;
+  height: 850px;
+  background: #1A8DA9;
+}
+div a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  padding-right: 100px;
+}
+div ul li{
+  list-style-type: none;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #236D7F;
+  margin-left: 10px;
+}
+div ul li:hover{
+  background: #white;
+  transition: linear all 0.40s;
+  margin-left: 10px;
+}
+div ul li a:hover{
+  color: black;
+}
+.selected{
+  background: white;
+}
+.selected a{
+  color: black;
+}
+
+.routineName{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputRoutineName{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.totalTime{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputTotalTime{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.skillLevel{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputSkillLevel{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.type{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputType{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.equipment{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputEquipment{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.bodyPart{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.inputBodyPart{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.textAreaNewRoutine{
+  width: 1620px;
+  margin-left: 20px;
+  height: 170px;
+}
+
+.description{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.btn-registerButtom{
+  background: red;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+.btn-resetButtom{
+  background: red;
+ margin-top: -5px;
+  margin-left: 600px;
+}
+
+.btn-CancelButtom{
+  background: red;
+  margin-top: -5px;
+  margin-left: 500px;
+}
+
+.machineWorkout{
+  font-size: 30px;
+  margin-top: -780px;
+  margin-left: 600px;
+}
+
+div#workoutList{
+  background: white;
+  height: 500px;
+  width: 1040px;
+  margin-top: -5px;
+  margin-left: 600px;
+}
+
+#tab { display:inline-block;
+
+}

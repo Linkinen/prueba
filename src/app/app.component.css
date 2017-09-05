@@ -1,0 +1,119 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+div#showRoutineOutside{
+  margin: auto;
+  margin-top: -850px;
+  margin-left: 250px;
+  height: 850px;
+  width: 1650px;
+  background: white;
+}
+
+div#showRoutineInside{
+  margin: auto;
+  margin-left: 15px;
+  height: 807px;
+  width: 1645px;
+  background: white;
+  border: 1px solid red;
+}
+
+div#routineInfo{
+  margin:auto;
+  height: 150px;
+  width: 1640px;
+  background: white;
+  border: 1px solid red;
+}
+
+h1{
+  font-family: Arial,sans-serif;
+  font-weight:400;
+  height: 60px;
+  width: 100%;
+  background: #1166AA;
+  line-height: 60px;
+  color: white;
+
+}
+div{
+  width: 250px;
+  height: 850px;
+  background: #1A8DA9;
+}
+div a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  padding-right: 100px;
+}
+div ul li{
+  list-style-type: none;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #236D7F;
+  margin-left: 10px;
+}
+div ul li:hover{
+  background: #white;
+  transition: linear all 0.40s;
+  margin-left: 10px;
+}
+div ul li a:hover{
+  color: black;
+}
+.selected{
+  background: white;
+}
+.selected a{
+  color: black;
+}
+
+.workoutRoutines{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.btn-AddNewRoute{
+  background: blue;
+}
+
+.btn-buttomSearch{
+  background: red;
+  margin-left: 800px;
+}
+
+.inputSearch{
+  margin-left: 0px;
+  width: 469px;
+}
+
+.form-control{
+  background: white;
+  width: 1235px;
+  height: 148px;
+  margin: auto;
+  margin-top: -148px;
+}
+
+.btn-edit{
+  background: blueviolet;
+  margin-top: -240px;
+  margin-left: 1450px;
+  padding: 8px 10px;
+}
+
+.btn-Delete{
+  background: darkgreen;
+  margin-top: -150px;
+  margin-left: 1450px;
+  padding: 8px 10px;
+}
+
+
+#tab { display:inline-block;
+
+}
